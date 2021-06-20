@@ -27,13 +27,11 @@ function play_sound(key)
         case "w":
             var audio = new Audio('sounds/tom-1.mp3');
             audio.play();
-            
             break;
             case "a":
                 var audio = new Audio('sounds/tom-2.mp3');
                 audio.play();
-                
-                break;
+                 break;
                 case "s":
                     var audio = new Audio('sounds/tom-3.mp3');
                     audio.play();
@@ -58,6 +56,11 @@ function play_sound(key)
     
                                 case "l":
                                     var audio = new Audio('sounds/crash.mp3');
+                                    audio.play();
+                                    
+                                    break;
+                                    case "p":
+                                    var audio = new Audio('sounds/kick-2.mp3');
                                     audio.play();
                                     
                                     break;

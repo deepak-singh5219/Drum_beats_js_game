@@ -50,6 +50,9 @@ footer {
   background-image: url('./images/crash.png');
 
 }
+.p{
+ background-image: url('./images/OIP.jpg');
+}
 
 .set {
   margin: 10% auto;
